@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)https://tagproject.s3.amazonaws.com/index.html -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>HOTEL BOOKING</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="css/dp.css">
+    <link rel="icon" href="image/hotel.png">
+</head>
+<body id="body-dp">
+<div id="dp">
+    <div class="header">
+        <div class="header-main">
+            <div class="header-left-content">
+                <image class="header-logo" src="image/hotel.png"></image>
+                <span class="header-logo-text">FILL THE FOLLOWING FORM WITH THE USER INFORMATION TO MAKE THE HOTEL RESERVATION</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-main">
+        <form method="post" action="#" id="web_form">
+            <div class="content-main-2">
+                <div class="content-main-3">
+                    <div class="content-main-div-1">
+                        <div class="form-row-div">
+                            <span class="form-input-text">Hotel name</span>
+                            <input class="form-input" type="text" name="hotel_name">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Lead time</span>
+                            <input class="form-input" type="number" name="lead_time">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Arrival date year</span>
+                            <input class="form-input" type="number" name="arrival_date_year">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Arrival date</span>
+                            <input class="form-input" type="text" name="arrival_date_month">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Arrival date week number</span>
+                            <input class="form-input" type="number" name="arrival_date_week_number">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Arrival date day of month</span>
+                            <input class="form-input" type="number" name="arrival_date_day_of_month">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Stays in weekend nights</span>
+                            <input class="form-input" type="number" name="stays_in_weekend_nights">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Stays in week nights</span>
+                            <input class="form-input" type="number" name="stays_in_week_nights">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Adults</span>
+                            <input class="form-input" type="number" name="adults">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Children</span>
+                            <input class="form-input" type="number" name="children">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Babies</span>
+                            <input class="form-input" type="number" name="babies">
+                        </div>
+                    </div>
+                    <div class="content-main-div-2">
+                        <div class="form-row-div">
+                            <span class="form-input-text">Meal</span>
+                            <input class="form-input" type="text" name="meal">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Country</span>
+                            <input class="form-input" type="text" name="country">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Market segment</span>
+                            <input class="form-input" type="text" name="market_segment">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Distribution channel</span>
+                            <input class="form-input" type="text" name="distribution_channel">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Is repeated guest</span>
+                            <input class="form-input" type="number" name="is_repeated_guest">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Previous cancellations</span>
+                            <input class="form-input" type="number" name="previous_cancellations">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Previous bookings not canceled</span>
+                            <input class="form-input" type="number" name="previous_bookings_not_canceled">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Reserved room type</span>
+                            <input class="form-input" type="text" name="reserved_room_type">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Sssigned room type</span>
+                            <input class="form-input" type="text" name="assigned_room_type">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Booking changes</span>
+                            <input class="form-input" type="number" name="booking_changes">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Deposit type</span>
+                            <input class="form-input" type="text" name="deposit_type">
+                        </div>
+                    </div>
+                    <div class="content-main-div-3">
+                        <div class="form-row-div">
+                            <span class="form-input-text">Agent</span>
+                            <input class="form-input" type="number" name="agent">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Company</span>
+                            <input class="form-input" type="number" name="company">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Days in waiting list</span>
+                            <input class="form-input" type="number" name="days_in_waiting_list">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Customer type</span>
+                            <input class="form-input" type="text" name="customer_type">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Adr</span>
+                            <input class="form-input" type="number" name="adr">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Required car parking spaces</span>
+                            <input class="form-input" type="number" name="required_car_parking_spaces">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Total of special requests</span>
+                            <input class="form-input" type="number" name="total_of_special_requests">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Reservation status</span>
+                            <input class="form-input" type="text" name="reservation_status">
+                        </div>
+                        <div class="form-row-div">
+                            <span class="form-input-text">Reservation status date</span>
+                            <input class="form-input" type="text" name="reservation_status_date">
+                        </div>
+                        <div class="form-btn-group">
+                            <button class="btn btn-light dp-button" id="submit_btn" type="submit" value="SUBMIT">Submit</button>
+                            <button class="btn btn-light dp-button" id="submit_reset" type="reset" value="DELETE">Delete</button>
+                        </div>
+                        <div style="margin-top: 20px; height: 30px">
+                            <span id="response_span"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+
+<script>
+    $(document).ready(function () {
+        $("#submit_btn").on('click', function (e) {
+            e.preventDefault();
+            console.log('submit clicked')
+            $('#response_span').text('')
+            let submit_btn = $('#submit_btn')
+            let reset_btn = $('#submit_reset')
+            let body_ = $('#body-dp')
+            let data = $('#web_form').serialize();
+
+            console.log(data);
+
+            $.ajax({
+                url: "http://18.196.2.25/api/v1/hotel",
+                method: "GET",      // The HTTP method to use for the request
+                dataType: "json",   // The type of data that you're exerciseecting back
+                data: data,
+                error: function (error) {
+                    response_func_1(error);
+                    $('#response_span').text(JSON.stringify(error.statusText))
+                    // A function to be called if the request fails.
+                },
+                beforeSend: function () {
+                    submit_btn.text('Wait');
+                    submit_btn.attr('disabled', 'disabled').addClass('no-select-btn')
+                    body_.addClass('body-animation')
+                    reset_btn.text('Wait');
+                    reset_btn.attr('disabled', 'disabled');
+                    reset_btn.attr('disabled', 'disabled').addClass('no-select-btn')
+                    // A function to be called if before the request is made.
+                },
+                success: function (response) {
+                    response_func_1(response);
+                    $('#response_span').text(JSON.stringify(response.body.replace("\n", '')))
+                    // A function to be called if the request succeeds.
+                },
+                complete: function (response) {
+
+                    // A function to be called when the request finishes
+                }
+            });
+
+            function response_func_1 (res){
+                console.log(res);
+                $("#web_form").get(0).reset();
+                submit_btn.text('Submit');
+                submit_btn.removeAttr("disabled");
+                reset_btn.text('Delete');
+                reset_btn.removeAttr("disabled");
+                body_.removeClass("body-animation");
+            }
+
+        });
+    });
+</script>
+</html>
